@@ -36,7 +36,7 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.innerHTML = `Please write your note in above section.`;
+    notesElm.innerHTML = `Write your notes above.`;
   }
 }
 function deleteNote(index) {
